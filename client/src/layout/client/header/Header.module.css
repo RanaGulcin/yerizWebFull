@@ -1,0 +1,20 @@
+.headerBg {
+  width: 100%;
+  height: 90px;
+  background: linear-gradient(
+    270deg,
+    rgba(217, 217, 217, 0.8) 0%,
+    #83d83f 21.44%,
+    #761e78 78.28%,
+    rgba(217, 217, 217, 0.8) 100%
+  );
+  color: #fff;
+}
+.navLink {
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: 600;
+}
+.navLink:hover {
+  color: #761e78 !important;
+}
