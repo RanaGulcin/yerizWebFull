@@ -1,6 +1,5 @@
 .headerBg {
   width: 100%;
-  height: 90px;
   background: linear-gradient(
     270deg,
     rgba(217, 217, 217, 0.8) 0%,
@@ -10,10 +9,13 @@
   );
   color: #fff;
 }
+
 .navLink {
   color: #fff !important;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 600;
+  padding: 8px 12px;
+
 }
 .navLink:hover {
   color: #761e78 !important;

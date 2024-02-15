@@ -1,0 +1,46 @@
+.padd {
+    padding-top: 110px;
+}
+
+.imgBox {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.alttabak {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+.tabak {
+    position: absolute;
+    right: 144px;
+    top: 122px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.tabak:hover {
+    animation: tabak 5s infinite;
+}
+
+@keyframes tabak {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.header {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    color: #AE0071;
+}
+
+.gif {
+    width: 1056px;
+    height: 569px;
+}

@@ -21,14 +21,14 @@ function Header() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link className={style.navLink} href="/yeriz">
-                Yeriz
+              <Nav.Link className={`pr-4 ${style.navLink}`} href="/yeriz">
+                YerİZ
               </Nav.Link>
-              <Nav.Link className={style.navLink} href="/surdurulebilirblog">
+              <Nav.Link className={`px-4 ${style.navLink}`} href="/surdurulebilirblog">
                 Sürdürülebilir Blog
               </Nav.Link>
               <Nav.Link
-                className={style.navLink}
+                className={`pl-4 ${style.navLink}`}
                 href="mailto:ranagulcin@gmail.com"
               >
                 Bize Ulaşın
