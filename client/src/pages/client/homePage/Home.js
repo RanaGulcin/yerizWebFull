@@ -10,12 +10,12 @@ import SKA17 from "./img/SKA-17.jpg";
 import face from "./img/face.png";
 import plant from "./img/plant.png";
 import money from "./img/money.png";
-import HomeCard from "../../../components/homeCard/HomeCard";
+import HomeCard from "../../../components/client/homeCard/HomeCard";
 
 function Home() {
   return (
     <Fragment>
-      <section className="container">
+      <>
         <div className="row py-5">
           <div className="col-lg-8 col-md-12">
             <div
@@ -25,8 +25,8 @@ function Home() {
                 Her yıl Dünya’da üretilen{" "}
                 <span className="fw-semibold" style={{fontSize:"17px"}}>
                   gıdaların yaklaşık %30’u çöpe gitmekte  
-                </span>
-                 ve toplam
+                </span>{" "}
+                 ve toplam{" "}
                 <span className="fw-semibold" style={{fontSize:"17px"}}>
                    karbon ayak izinin %10’u israftan kaynaklanmaktadır.
                 </span>
@@ -115,7 +115,7 @@ function Home() {
             <img src={SKA17} className="img-fluid" alt="SKA17" />
           </div>
         </div>
-      </section>
+      </>
     </Fragment>
   );
 }
