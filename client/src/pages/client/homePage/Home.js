@@ -25,8 +25,8 @@ function Home() {
                 Her yıl Dünya’da üretilen{" "}
                 <span className="fw-semibold" style={{fontSize:"17px"}}>
                   gıdaların yaklaşık %30’u çöpe gitmekte  
-                </span>
-                 ve toplam
+                </span>{" "}
+                 ve toplam{" "}
                 <span className="fw-semibold" style={{fontSize:"17px"}}>
                    karbon ayak izinin %10’u israftan kaynaklanmaktadır.
                 </span>
