@@ -3,6 +3,7 @@ import Layout from '../layout/client/layout/Layout';
 import Home from '../pages/client/homePage/Home';
 import About from '../pages/client/aboutPage/About';
 import Blog from '../pages/client/blogPage/Blog';
+import BlogDetail from '../pages/client/blogDetailPage/BlogDetail';
 
 
 const routes = createBrowserRouter([
@@ -21,6 +22,10 @@ const routes = createBrowserRouter([
             {
                 path:'surdurulebilirblog',
                 element: <Blog/>
+            },
+            {
+                path:'surdurulebilirblog/:id',
+                element: <BlogDetail/>
             },
             
 
