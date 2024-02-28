@@ -9,7 +9,7 @@ function Layout() {
     <Fragment>
       <Header />
       <section className={style.mainSection}>
-        <div>
+        <div className="container">
           <Outlet />
         </div>
       </section>

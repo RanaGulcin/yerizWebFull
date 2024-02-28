@@ -21,8 +21,11 @@ function Header() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
-              <Nav.Link className={`pr-4 ${style.navLink}`} href="/yeriz">
-                YerİZ
+              <Nav.Link className={`pr-4 ${style.navLink}`} href="/hakkimizda">
+                Hakkımızda
+              </Nav.Link>
+              <Nav.Link className={`pr-4 ${style.navLink}`} href="/yerizapp">
+                YerizApp
               </Nav.Link>
               <Nav.Link className={`px-4 ${style.navLink}`} href="/surdurulebilirblog">
                 Sürdürülebilir Blog

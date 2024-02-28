@@ -1,0 +1,74 @@
+[
+  {
+    "memberId": "1",
+    "profilImage": "acelya.png",
+    "name": "Açelya",
+    "surname": "Uslu",
+    "team": "YAZILIM",
+    "university": "Celal Bayar Üniversitesi",
+    "job": "Bilgisayar Mühendisi"
+  },
+  {
+    "memberId": "2",
+    "profilImage": "ahmet.png",
+    "name": "Ahmet",
+    "surname": "Kaleli",
+    "team": "OPERASYON ŞEFİ",
+    "university": "Ege Üniversitesi",
+    "job": "Ziraat Mühendisi"
+  },
+  {
+    "memberId": "3",
+    "profilImage": "didem.png",
+    "name": "Didem",
+    "surname": "Şahin",
+    "team": "TASARIM",
+    "university": "İzmir Yüksek Teknoloji Enstitüsü",
+    "job": "Şehir Plancısı"
+  },
+  {
+    "memberId": "4",
+    "profilImage": "kibele.png",
+    "name": "Eylül Kibele",
+    "surname": "Mengeş",
+    "team": "TASARIM",
+    "university": "İzmir Yüksek Teknoloji Enstitüsü",
+    "job": "Mimar & Şehir Plancısı"
+  },
+  {
+    "memberId": "5",
+    "profilImage": "rana.png",
+    "name": "Rana",
+    "surname": "Taşkın",
+    "team": "SÜRDÜREBİLİRLİK",
+    "university": "Ege Üniversitesi",
+    "job": "Biyomühendis"
+  },
+  {
+    "memberId": "6",
+    "profilImage": "ranagulcin.png",
+    "name": "Rana Gülçin",
+    "surname": "Çakır",
+    "team": "YAZILIM",
+    "university": "Ege Üniversitesi",
+    "job": "Mimar & Yazılım Mühendisi"
+  },
+  {
+    "memberId": "7",
+    "profilImage": "nilsah.png",
+    "name": "Nilşah",
+    "surname": "Özar",
+    "team": "RAPORLAMA",
+    "university": "Dokuz Eylül Üniversitesi",
+    "job": "Mimar"
+  },
+  {
+    "memberId": "8",
+    "profilImage": "nilufer.png",
+    "name": "Nilüfer İkbal",
+    "surname": "Korkmaz",
+    "team": "İLETİŞİM",
+    "university": "Başkent Üniversitesi",
+    "job": "Uluslararası İlişkiler Uzmanı"
+  }
+]
