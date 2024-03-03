@@ -1,6 +1,14 @@
-.footerBg{
+.footerBg {
     width: 100%;
-    height: 45px;
-    background: linear-gradient(270deg, rgba(217, 217, 217, 0.8) 0%, #83D83F 21.44%, #761E78 78.28%, rgba(217, 217, 217, 0.8) 100%);
-    color: #FFF;
+    height: 50px;
+    background: #72590033;
+
+}
+.footerBg a{
+    text-decoration: none;
+}
+.links {
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFDE69;
 }

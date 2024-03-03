@@ -3,13 +3,26 @@ import style from "./Header.module.css";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "./LOGO.png";
+import Dropdown from "react-bootstrap/Dropdown";
+import logo from "../../../assets/images/icons/logo.svg";
+import instagram from "../../../assets/images/icons/instagram.png";
+import linkedin from "../../../assets/images/icons/linkedin.png";
+import hamburger from "../../../assets/images/icons/hamburgerMenu.png";
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
     <header>
-      <Navbar expand="lg" className={style.headerBg}>
+      <Navbar expand="lg">
         <Container>
+          <span className="d-flex gap-3">
+            <Link href="https://www.linkedin.com/company/90847982" target="_blank">
+              <img src={linkedin} alt="Linkedin Logo" />
+            </Link>
+            <Link href="#" target="_blank">
+              <img src={instagram} alt="Instagram Logo" />
+            </Link>
+          </span>
           <Navbar.Brand href="/">
             <img
               src={logo}
@@ -18,26 +31,25 @@ function Header() {
               alt="Yeriz Logo"
             />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ms-auto">
-              <Nav.Link className={`pr-4 ${style.navLink}`} href="/hakkimizda">
+
+          <Dropdown className={style.Dropdown}>
+            <Dropdown.Toggle id="dropdown-basic">
+              <img src={hamburger} alt="menu" />
+            </Dropdown.Toggle>
+
+            <Dropdown.Menu className={style.menu}>
+              <Dropdown.Item href="/hakkimizda" className={style.item}>
                 Hakkımızda
-              </Nav.Link>
-              <Nav.Link className={`pr-4 ${style.navLink}`} href="/yerizapp">
-                YerizApp
-              </Nav.Link>
-              <Nav.Link className={`px-4 ${style.navLink}`} href="/surdurulebilirblog">
+              </Dropdown.Item>
+              <Dropdown.Item href="/yerizapp" className={style.item}>Yeriz App</Dropdown.Item>
+              <Dropdown.Item href="/surdurulebilirblog" className={style.item}>
                 Sürdürülebilir Blog
-              </Nav.Link>
-              <Nav.Link
-                className={`pl-4 ${style.navLink}`}
-                href="mailto:ranagulcin@gmail.com"
-              >
+              </Dropdown.Item>
+              <Dropdown.Item href="mailto:ranagulcin@gmail.com" className={style.item}>
                 Bize Ulaşın
-              </Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
+              </Dropdown.Item>
+            </Dropdown.Menu>
+          </Dropdown>
         </Container>
       </Navbar>
     </header>

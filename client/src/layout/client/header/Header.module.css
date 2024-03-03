@@ -9,14 +9,27 @@
   );
   color: #fff;
 }
+.menu{
+background-color: #fff;
+text-align: center;
+right: 0 !important;
+left: auto !important;
+}
 
-.navLink {
-  color: #fff !important;
-  font-size: 18px;
-  font-weight: 600;
-  padding: 8px 12px;
+.item {
+  color: #828282 !important;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 
 }
-.navLink:hover {
-  color: #761e78 !important;
+.item:hover {
+  color: #FFC700 !important;
+}
+.Dropdown button{
+  background-color: transparent !important;
+  border: none;
+}
+.Dropdown button::after{
+  display: none;
 }
