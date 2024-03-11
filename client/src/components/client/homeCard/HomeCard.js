@@ -2,9 +2,9 @@ import React from "react";
 import style from "./HomeCard.module.css";
 
 function HomeCard(props) {
-  const { icon, title, text } = props;
+  const { icon, title, text, ...dist } = props;
   return (
-    <div>
+    
       <div className={`card ${style.card}`} >
         <div className="card-body">
           <img src={icon} alt="Kart İkon" />
@@ -14,7 +14,7 @@ function HomeCard(props) {
           </p>
         </div>
       </div>
-    </div>
+    
   );
 }
 

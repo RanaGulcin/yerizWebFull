@@ -1,46 +1,36 @@
-.padd {
-    padding-top: 110px;
+.titleBox{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    max-width: 455px;
+    margin: 0px auto ;
 }
-
-.imgBox {
-    height: 100%;
-    width: 100%;
-    position: relative;
-}
-
-.alttabak {
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    z-index: 1;
-}
-
-.tabak {
-    position: absolute;
-    right: 144px;
-    top: 122px;
-    z-index: 2;
-    cursor: pointer;
-}
-
-.tabak:hover {
-    animation: tabak 5s infinite;
-}
-
-@keyframes tabak {
-    100% {
-        transform: rotate(360deg);
-    }
-}
-
-.header {
-    font-size: 24px;
+.title{
+    font-family: Galano Grotesque;
+    font-size: 48px;
     font-weight: 600;
-    line-height: 29px;
-    color: #AE0071;
+    line-height: 65px;
+    text-align: center;
+    color: #fff;
 }
+.titlepart{
+    color: #FFC700;
 
-.gif {
-    width: 1056px;
-    height: 569px;
+}
+.homeText{
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+}
+.homeTextPart{
+   color: #FFC700;
+   font-family: Poppins;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+
 }

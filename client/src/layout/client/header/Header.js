@@ -16,10 +16,10 @@ function Header() {
       <Navbar expand="lg">
         <Container>
           <span className="d-flex gap-3">
-            <Link href="https://www.linkedin.com/company/90847982" target="_blank">
+            <Link className={style.border} href="#" target="_blank">
               <img src={linkedin} alt="Linkedin Logo" />
             </Link>
-            <Link href="#" target="_blank">
+            <Link className={style.border} href="#" target="_blank">
               <img src={instagram} alt="Instagram Logo" />
             </Link>
           </span>
@@ -33,7 +33,7 @@ function Header() {
           </Navbar.Brand>
 
           <Dropdown className={style.Dropdown}>
-            <Dropdown.Toggle id="dropdown-basic">
+            <Dropdown.Toggle className={style.border} id="dropdown-basic">
               <img src={hamburger} alt="menu" />
             </Dropdown.Toggle>
 
@@ -41,7 +41,6 @@ function Header() {
               <Dropdown.Item href="/hakkimizda" className={style.item}>
                 Hakkımızda
               </Dropdown.Item>
-              <Dropdown.Item href="/yerizapp" className={style.item}>Yeriz App</Dropdown.Item>
               <Dropdown.Item href="/surdurulebilirblog" className={style.item}>
                 Sürdürülebilir Blog
               </Dropdown.Item>

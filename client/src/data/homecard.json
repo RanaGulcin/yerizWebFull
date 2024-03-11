@@ -1,0 +1,14 @@
+[
+    {"icon":"sosyal.png",
+        "title":"Sosyal Etki",
+        "text":"Yılda 2,5 milyar ton gıda israf olurken, her gün 828 milyon insan aç kalıyor."
+    },
+    {"icon":"cevresel.png",
+        "title":"Çevresel Etki",
+        "text":"Gıda atıkları, sera gazı emisyonlarının %10'undan sorumludur."
+    },
+    {"icon":"ekonomi.png",
+        "title":"Ekonomik Etki",
+        "text":"Gıda israfı her yıl 1.2 trilyon dolara mal oluyor."
+    }
+]
