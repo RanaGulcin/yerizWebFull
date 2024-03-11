@@ -25,11 +25,11 @@ function Home() {
         </div>
       </div>
       <div className="row d-flex justify-content-center w-100">
-        {homecard.map((card, key) => {
+        {homecard?.map((card, key) => 
           <div key={key} className="col-xl-4 col-lg-4 col-md-6 col-sm-12">
             <HomeCard icon={card.icon} title={card.title} text={card.text} />
-          </div>;
-        })}
+          </div>
+        )}
       </div>
     </>
   );
