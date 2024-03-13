@@ -2,6 +2,7 @@ import React from "react";
 import style from "./Home.module.css";
 import homecard from "../../../data/homecard.json";
 import HomeCard from "../../../components/client/homeCard/HomeCard";
+import phone from "../../../assets/images/phone.png"
 
 function Home() {
   console.log("hd,", homecard);
@@ -30,6 +31,9 @@ function Home() {
             <HomeCard icon={card.icon} title={card.title} text={card.text} />
           </div>
         )}
+      </div>
+      <div style={{position:"relative"}}>
+        <img className={style.phone} src={phone} alt="Yeriz Mobil Görseli"/>
       </div>
     </>
   );

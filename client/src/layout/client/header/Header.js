@@ -8,6 +8,7 @@ import logo from "../../../assets/images/icons/logo.svg";
 import instagram from "../../../assets/images/icons/instagram.png";
 import linkedin from "../../../assets/images/icons/linkedin.png";
 import hamburger from "../../../assets/images/icons/hamburgerMenu.png";
+import hamburgerY from "../../../assets/images/icons/hamburgerMenuYellow.png";
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -35,6 +36,7 @@ function Header() {
           <Dropdown className={style.Dropdown}>
             <Dropdown.Toggle className={style.border} id="dropdown-basic">
               <img src={hamburger} alt="menu" />
+              <img src={hamburgerY} alt="menu" />
             </Dropdown.Toggle>
 
             <Dropdown.Menu className={style.menu}>

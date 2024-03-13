@@ -7,9 +7,9 @@ function HomeCard(props) {
     
       <div className={`card ${style.card}`} >
         <div className="card-body">
-          <img src={icon} alt="Kart İkon" />
-          <h5 className="card-title fw-semibold py-1">{title}</h5>
-          <p className="card-text">
+          <img src={process.env.PUBLIC_URL + icon} alt="Kart İkon" />
+          <h5 className={`card-title ${style.cardTitle}`}>{title}</h5>
+          <p className={`card-text ${style.cardText}`}>
             {text}
           </p>
         </div>

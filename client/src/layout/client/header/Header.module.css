@@ -25,6 +25,7 @@ left: auto !important;
 }
 .item:hover {
   color: #FFC700 !important;
+  background-color: #fff;
 }
 .Dropdown button{
   background-color: transparent !important;
@@ -37,4 +38,7 @@ left: auto !important;
   padding: 10px 26px;
   border: 1px solid #fff !important;
   border-radius: 25px;
+}
+.border img:nth-child(2){
+  display: none;
 }

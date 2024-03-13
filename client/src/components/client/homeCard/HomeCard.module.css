@@ -5,9 +5,23 @@
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF55;
     text-align: center;
-    padding: 18px 0px;
+    padding: 3px 0px;
 }
 .card:hover{
     /* box-shadow: 0px 4px 5px #83D83F; */
     transform: scale(1.03);
+}
+.cardTitle{
+    font-family: Galano Grotesque;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27px;
+    color: #FFC700;
+}
+.cardText{
+font-family: Poppins;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+color: #FFFFFF;
 }
